@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontak — Elvi Yunilta</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Elvi Yunilta</a>
+      <nav class="nav" id="nav-contact">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tentang</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+      <button id="nav-toggle-3" class="nav-toggle" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container contact-inner">
+        <div class="card contact-card">
+          <h1>Hubungi Saya</h1>
+          <form id="contactForm">
+            <label>Nama</label>
+            <input type="text" id="name" required />
+
+            <label>Email</label>
+            <input type="email" id="email" required />
+
+            <label>Pesan</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button class="btn primary" type="submit">Kirim</button>
+          </form>
+          <p id="formMsg" class="form-msg" aria-live="polite"></p>
+        </div>
+
+        <aside class="contact-info">
+          <div class="card">
+            <h3>Alamat</h3>
+            <p>Kota — Provinsi, Indonesia</p>
+            <h3>Email</h3>
+            <p>elvi@email.com</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-3"></span> Elvi Yunilta</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
